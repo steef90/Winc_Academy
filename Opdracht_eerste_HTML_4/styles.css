@@ -1,0 +1,51 @@
+*{
+    font-family: 'Lobster', serif;
+}
+
+header{
+    color: ghostwhite;
+    height: 500px;
+    background-image: url("headerBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+}
+
+.paginaTitel{
+    font-size: 6em;
+    padding-bottom: 100px;
+    background: -webkit-linear-gradient(ghostwhite, rgb(167, 67, 67));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(5px 5px 5px black)  
+
+}
+
+.navBar{
+    list-style-type: none;
+    font-size: 24pt;
+}
+
+
+body{
+    color: ghostwhite;
+    background-color: ghostwhite;
+}
+
+main{
+    background-color: slategray;
+    padding: 20px;
+}
+
+
+li{
+    color: black;
+}
+
+footer{
+    text-align: center;
+    font-size: 16pt;
+    color: gray;
+}
