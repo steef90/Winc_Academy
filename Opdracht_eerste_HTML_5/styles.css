@@ -1,0 +1,119 @@
+*{
+    font-family: 'Lobster', serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: ghostwhite;
+    height: 500px;
+    background-image: url("headerBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+}
+
+header ul{
+    background-color: ghostwhite;
+    display: block;
+    padding: 10px;
+    margin: 200px 0px 0px 0px;
+    box-shadow: 0px 5px 10px black;
+
+}
+
+header li{
+    display: inline;
+    padding: 10px;
+    background-color:rgb(167, 67, 67);
+    color:ghostwhite;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header a:visited{
+    color: white;
+}
+
+main{
+    margin: 0 5%;
+}
+
+body{
+    color: ghostwhite;
+    background-color: ghostwhite;
+    
+}
+
+figure{
+    width: 25%;
+    margin: 0 auto;
+}
+
+article .border-1{
+    background-color: rgb(167, 67, 67); 
+    border-left: 20px solid darkslateblue;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+article .border-2{
+    background-color: lightgray; 
+    border: 5px dotted gray;
+    color: grey;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+article .border-3{
+    background-color: lightskyblue;
+    border: 5px double rgb(167, 67, 67);
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+article h1{
+    color: rgb(167, 67, 67);
+    padding: 10px;
+}
+
+article p{
+    padding: 10px;
+}
+
+ul{
+    color: ghostwhite;
+    margin: 10px auto 10px 40px;
+}
+
+footer{
+    text-align: center;
+    font-size: 16pt;
+    width: 100%;
+    color: gray;
+    margin: 20px auto;
+}
+
+.paginaTitel{
+    font-size: 6em;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-left: auto;
+    background: -webkit-linear-gradient(ghostwhite, rgb(167, 67, 67));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(5px 5px 5px black)  
+
+}
+
+.navBar{
+    list-style-type: none;
+    font-size: 24pt;
+}
+
+
