@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Website_1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="overmij.html">OVER MIJ</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </header>
+    <main>
+        <form name="contact" action="success.html" data-netlify="true">
+            <p><br>
+                <label><b>Naam </b><br><input type="text" name="name" /></label>
+            </p>
+            <p><br>
+                <label><b>E-mail</b> <br><input type="email" name="email" /></label>
+            </p>
+            <p><br>
+                <label><b>Telefoonnummer</b><br><input type="tel" name="tel" /></label>
+            </p>
+            <p><br>
+                <label><b>Geboortedatum</b><br><input type="date" name="date" /></label>
+            </p><br>
+            <p><b>Geslacht</b><br>
+                <label><input type="radio" name="geslacht" value="male" />&nbsp;Man</label>
+                <label><input type="radio" name="geslacht" value="female" />&nbsp;Vrouw</label>
+            </p><br>
+            <p><b>Favoriete keuken</b><br>
+                <label><input type="checkbox" name="Frans" />&nbsp;Frans</label>
+                <label><input type="checkbox" name="Italiaans" />&nbsp;Italiaans</label>
+                <label><input type="checkbox" name="Spaans" />&nbsp;Spaans</label>
+                <label><input type="checkbox" name="Arabisch" />&nbsp;Arabisch</label>
+            </p>
+            <p><br>
+                <label><b>Favoriete schortkleur</b><br>
+                    <input type="color" name="kleur" /> </label>
+            </p>
+            <p><br>
+                <label><b>Biografie</b><br><br> <textarea name="biografie" rows="5"
+                        cols="40"> Typ hier jouw biografie</textarea></label>
+            </p><br>
+            <p>
+                <label><b>Upload je laatste recept</b><br><input type="file" name="recept" /></label>
+            </p>
+            <p>
+                <label><b>Recepten website</b></label><br>
+                <input type="url" name="receptensite"></label>
+            </p>
+            <br>
+            <p>
+                <button type="reset">Reset formulier</button>
+            </p>
+            <br>
+            <p>
+                <button type="submit">Verzend</button>
+            </p>
+
+        </form>
+
+    </main>
+    <footer>
+        <p>© Copyright 2021 Steef Jacobs</p>
+    </footer>
+</body>
+
+</html>
