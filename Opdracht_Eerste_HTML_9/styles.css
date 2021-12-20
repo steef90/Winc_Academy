@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+header {
+    background-color: ghostwhite;
+}
+
+
+html {
+    min-width: 400px;
+}
+
+body {
+    background-color: grey;
+    padding-bottom: 20px;
+}
+
+main {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: ghostwhite;
+    padding: 20px;
+    font-size: 22pt;
+    background-color: darkslategray;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    width: 100%;
+    margin: 20px auto;
+    list-style: none;
+    align-items: stretch;
+    display: block;
+    text-align: center;
+    background-color: darkslategray;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 10px black;
+}
+
+li {
+    display: block;
+    padding: 10px;
+    background-color: ghostwhite;
+    color: darkslategrey;
+    font-size: 28pt;
+    border: 1px solid darkslategray;
+}
+
+li:hover {
+    box-shadow: inset 0px 0px 10px black;
+
+}
+
+table {
+    text-align: center;
+}
+
+td {
+    display: block;
+}
+
+td img {
+    width: 300px;
+}
+
+td p {
+    padding: 20px;
+}
+
+section {
+    margin-top: 40px;
+    box-shadow: 0px 0px 10px black;
+}
+
+section h2 {
+    padding-bottom: 10px;
+    padding: 0px 20px;
+}
+
+iframe {
+    margin: 30px auto;
+}
+
+footer {
+    text-align: center;
+    margin: 80px auto;
+    color: ghostwhite;
+
+}
+
+button {
+    padding: 5px;
+}
+
+
+.video {
+    background-color: darkslategrey;
+    text-align: center;
+    color: ghostwhite;
+    padding: 20px;
+}
+
+.video h2 {
+    margin-bottom: 20px;
+}
+
+
+.dark {
+    background-color: darkslategrey;
+    color: ghostwhite;
+    padding: 20px;
+}
+
+.light {
+    background-color: ghostwhite;
+    color: darkslategrey;
+    padding: 20px;
+}
+
+@media screen and (min-width: 992px) {
+    main {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    td {
+        display: table-cell;
+    }
+
+    .dark td {
+        text-align: left;
+    }
+
+    .light td {
+        text-align: right;
+    }
+
+    ul {
+        width: 100%;
+        margin: 20px auto;
+        list-style: none;
+        align-items: stretch;
+        display: flex;
+        text-align: center;
+        background-color: darkslategray;
+        justify-content: space-evenly;
+    }
+
+    li {
+        display: inline-block;
+        padding: 10px;
+        background-color: ghostwhite;
+        color: darkslategrey;
+        font-size: 16pt;
+        width: 150px;
+    }
+
+    h1 {
+        font-size: 28pt;
+    }
+
+}
