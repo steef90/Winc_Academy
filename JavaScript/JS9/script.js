@@ -57,9 +57,9 @@ const addVAT = function (basePrice, VAT){
 
 const subVAT = function (totalPrice, VAT){
     basePrice = (totalPrice / (1 + (VAT/100))); 
-    let roundBase = Math.round(basePrice);
+    let roundBase = basePrice.toPrecision(3);
     vatPrice = (totalPrice - (totalPrice/(1 + (VAT/100))));
-    let roundVat = Math.round(vatPrice);
+    let roundVat = vatPrice.toPrecision(3);
     return [roundBase, roundVat];
 };
 
